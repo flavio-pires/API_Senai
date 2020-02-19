@@ -1,0 +1,13 @@
+API = é uma interface de comunicação (programação.. resposta do front end com o back end é o JSON, por este motivo não interessa a linguagem utilizada
+Vantagens = integração entre sistemas, independente da linguagem de programação / Segurança / Implementação
+Rest = Estrutura de regras do API / padrao de arquitetura
+
+JSON = é um formato que faz outras linguagens se comunicar, como se fosse um tradutor universal.. é uma resposta para aplicação..
+ele é formado por um Array(laço), onde possui varios objetos, com chave e valor..
+
+criar o projeto
+dividir em pastas
+Domains = como se fosse as tabelas do banco de dados
+Interfaces = listar todos os metodos que terão na api
+repository = faz a comunicação direta com banco de dados herdando os metodos da interface e define como as coisas acontecem
+Controllers = recebe uma requisição e retorna uma resposta.. seja para o navegador ou qualquer outro endpoint
